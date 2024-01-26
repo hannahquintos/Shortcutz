@@ -8,7 +8,7 @@ Version/level 2 will use one graphic to represent each shortcut.
 
 Version/level 3 will use multiple different graphics to represent each shortcut.
 
-Features:
+#h2 Features:
 - Display an image or word on the screen
 - Function to handle keys pressed by the user
 - If user performs the correct shortcut, next image or word will be displayed
@@ -17,9 +17,9 @@ Features:
 - 3 levels of the game
 
 
-Technologies:
+#h2 Technologies:
 - HTML
 - CSS
 - Javascript
   
-Deployed website:
+#h2 Deployed website:
