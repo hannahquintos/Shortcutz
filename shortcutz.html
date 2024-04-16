@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="eng">
+    <head>
+        <meta charset="utf-8">
+        <title>Shortcutz</title>
+        <link rel="stylesheet" type="text/css" href="styles.css">
+        <script src="script.js"></script>
+    </head>
+    <body>
+        <div id="startScreen">
+            <div id="gameTitle">
+                <div class="letterContainer"><p>S</p></div>
+                <div class="letterContainer"><p>H</p></div>
+                <div class="letterContainer"><p>O</p></div>
+                <div class="letterContainer"><p>R</p></div>
+                <div class="letterContainer"><p>T</p></div>
+                <div class="letterContainer"><p>C</p></div>
+                <div class="letterContainer"><p>U</p></div>
+                <div class="letterContainer"><p>T</p></div>
+                <div class="letterContainer"><p>Z</p></div>
+            </div>
+            <div>
+                <button id="playBtn" type="button">play</button>
+            </div>
+        </div>
+        <div id="gameScreen">
+            <div id="gameContent">
+                <div id="timer">
+                    <img src="images/clock.svg" alt=""/>
+                    <p id="timeDisplay">00:00:00</p>
+                </div>
+                <div id="gameText">
+                    <div>
+                        <p>Type the keyboard shortcut that matches the word below</p>
+                    </div>
+                    <div id="shortcutContainer">
+                        <div id="shortcut"><p id="shortcutText">shortcut</p></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="gameOverScreen">
+            <div id="gameOverContent">
+                <h1>Game Over</h1>
+                <div id="scoreBox">
+                    <h2>Your Time:</h2>
+                    <div id="score">
+                        <img src="images/clock.svg" alt=""/>
+                        <p id="timeScore"></p>
+                    </div>
+                </div>
+                <div>
+                    <button id="playAgainBtn" type="button">play again</button>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
